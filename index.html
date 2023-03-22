@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>PAYMENT PLATFORM</h1>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+          <div class="col-50">
+            <h2>Accepted Cards</h2>
+            <img src="./asset/master card.png" alt="master card">
+            <img src="./asset/verve.png" alt="verv">
+            <img src="./asset/visa card.png" alt="visa card">
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Name">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="Card Number">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Month">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="Year">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="cvv">
+              </div>
+            </div>
+          </div>
+        </div>
+        <label>
+          <button type="submit" onclick="checkcc()" id="btnbtn">Pay Now</button>  
+        </label>
+      </div> 
+       
+    </div>
+</div>
+<script src="./program.js"></script>
+</body>
+</html>
